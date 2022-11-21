@@ -26,11 +26,13 @@ class Mainmenu extends React.Component {
 
     componentDidMount() {
         let { items, selected } = this.state;
-        let app = this;
+        let app = this; // app would be used in places where the the value of 'this' gets lost
 
+        //adding 'show selected item' functionality to the select button
         const selectBtn = document.getElementById('select-btn');
         selectBtn.addEventListener('click', this.handleSelectBtn);
 
+        //adding zingtouch functionality to the circular menu buttons
         const menuBtns = document.getElementById('menu-btns');
         this.zt = new ZingTouch.Region(menuBtns);
         this.zt.bind(menuBtns, 'rotate', function (e) {
@@ -53,6 +55,7 @@ class Mainmenu extends React.Component {
         });
     }
 
+    //removing all the eventlisteners, zintouch regions before the component gets unmounted
     componentWillUnmount() {
         const menuBtns = document.getElementById('menu-btns');
         const selectBtn = document.getElementById('select-btn');

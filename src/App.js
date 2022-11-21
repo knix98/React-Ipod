@@ -12,8 +12,10 @@ class App extends React.Component{
   }
 
   handleMenuBtn = () => {
+    //if already on mainmenu then return 
     if(this.state.screen === 'mainmenu') return;
 
+    //otherwise set screen to 'mainmenu'
     this.setState({
       screen: 'mainmenu'
     })
@@ -31,8 +33,8 @@ class App extends React.Component{
 
     if(screen === 'home') return;
     if(screen === 'mainmenu') newScreen = 'home';
-    else if(screen.slice(0,4) === 'song') newScreen = 'Music';
-    else newScreen = 'mainmenu';
+    else if(screen.slice(0,4) === 'song') newScreen = 'Music'; //if on song-player screen, go back to songs-list screen
+    else newScreen = 'mainmenu'; //means screen is either from games, settings or coverflow
 
     this.setState({
       screen: newScreen

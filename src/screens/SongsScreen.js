@@ -14,6 +14,7 @@ class SongsScreen extends React.Component {
         this.angleRotated = 0;
     }
 
+    //function to handle the select button while on this screen
     handleSelectBtn = () => {
         this.props.handleSelectBtn('song' + this.state.selected);
     }
@@ -22,11 +23,13 @@ class SongsScreen extends React.Component {
         let { items, selected } = this.state;
         let app = this;
 
+        //adding the correct functional eventListeners to the select-button and play-button on ipod
         const selectBtn = document.getElementById('select-btn');
         const playBtn = document.getElementById('bottom-btn');
         selectBtn.addEventListener('click', this.handleSelectBtn);
         playBtn.addEventListener('click', this.handleSelectBtn);
 
+        //adding zingtouch rotate functionality to the circular menu buttons
         const menuBtns = document.getElementById('menu-btns');
         this.zt = new ZingTouch.Region(menuBtns);
         this.zt.bind(menuBtns, 'rotate', function (e) {
@@ -49,6 +52,7 @@ class SongsScreen extends React.Component {
         });
     }
 
+    //removing all the eventlisteners, zintouch regions before the component gets unmounted
     componentWillUnmount() {
         const menuBtns = document.getElementById('menu-btns');
         const selectBtn = document.getElementById('select-btn');

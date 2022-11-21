@@ -1,4 +1,6 @@
 import React from 'react'
+
+//importing the correct background images for the different menu item's screens
 import gamesBg from './../images/games_bg.avif';
 import coverFlowBg from './../images/coverflow_bg.avif';
 import settingsBg from './../images/settings_bg.avif';
@@ -6,6 +8,8 @@ import settingsBg from './../images/settings_bg.avif';
 class MainmenuScreen extends React.Component {
     render() {
         const { screen } = this.props;
+
+        //the correct screen should be shown according the menu-item that was selected
         let screenBg;
         if(screen === 'Games') screenBg = gamesBg;
         if(screen === 'Cover Flow') screenBg = coverFlowBg;

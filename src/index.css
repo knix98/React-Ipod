@@ -28,12 +28,10 @@ code {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 15px;
   position: relative;
-  /* display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly; */
 }
 
+
+/* Styling the various buttons on the ipod */
 #menu-btns {
   border-radius: 50%;
   background-color: aliceblue;
@@ -43,7 +41,6 @@ code {
   bottom: 12px;
   left: 40px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
-  /* box-sizing: border-box; */
 }
 .circle-btns {
   height: 48px;
@@ -109,6 +106,8 @@ code {
   border-radius: 0 0 75px 75px;
 }
 
+
+/* Styling the screen and the different screens that would be mounted onto it */
 #screen {
   width: 260px;
   height: 242px;
@@ -121,6 +120,7 @@ code {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+/* styling the mainmenu screens */
 #main-menu {
   height: 100%;
   width: 50%;
@@ -177,11 +177,12 @@ code {
   color: aliceblue;
 }
 
+/* styling the songs-list screen and the song-player screen */
 #songs-screen {
   width: 100%;
   height: 100%;
   border-radius: 12px 12px 12px 12px;
-  background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('./images/songsScreen_bg.avif');
   background-size: 100% 100%;
 }
 #songs-screen > div, #song-player-bg > div {
@@ -225,6 +226,7 @@ code {
   font-size: 13px;
 }
 
+/* various individual classes that would be added to an element according the condition specified inside the element */
 .menu-item-selected {
   background-color: aqua !important;
 }
