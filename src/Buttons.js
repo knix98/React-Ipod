@@ -11,6 +11,7 @@ class Buttons extends React.Component{
     this.intervalId = null;
   }
 
+  //highlight menu-btns when song-player screen is active
   componentDidUpdate() {
     let app = this;
     if(this.props.whichScreen.slice(0,4) === 'song' && this.intervalId === null) {
@@ -37,7 +38,7 @@ class Buttons extends React.Component{
     
 
     return(
-      // <div id="menu-btns" draggable='false' className={whichScreen.slice(0,4) === 'song' ? 'menu-btns-active' : ''}>
+
       <div id="menu-btns" draggable='false' className={this.state.buttonsHighlight ? 'menu-btns-highlight' : ''}>
         <div id="center-btns">
             <div id="select-btn">SELECT</div>
