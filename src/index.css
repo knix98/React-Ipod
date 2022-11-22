@@ -230,9 +230,11 @@ code {
 .menu-item-selected {
   background-color: aqua !important;
 }
-.menu-btns-active {
-  background-color: crimson !important;
-}
 .song-selected {
   background-color: aqua !important;
+}
+.menu-btns-highlight {
+  border: 4px solid #ff0038;
+  left: 36px !important;
+  bottom: 8px !important;
 }

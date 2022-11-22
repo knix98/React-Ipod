@@ -5,7 +5,7 @@ import songBg1 from './../images/song1.jpg';
 import songBg2 from './../images/song2.jpg';
 import songBg3 from './../images/song3.jpg';
 
-//importing songs (mp3)
+// importing songs (mp3)
 import song1 from './../songs/01 - Saath Hum Rahein.mp3';
 import song2 from './../songs/02 - Drishyam 2 - Title Track.mp3';
 import song3 from './../songs/03 - Sahi Galat.mp3';
