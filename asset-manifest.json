@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Ipod/static/css/main.7cb3669d.css",
+    "main.js": "/React-Ipod/static/js/main.0c4bcd37.js",
+    "static/media/01 - Saath Hum Rahein.mp3": "/React-Ipod/static/media/01 - Saath Hum Rahein.ec50fcb1e8630309ab47.mp3",
+    "static/media/02 - Drishyam 2 - Title Track.mp3": "/React-Ipod/static/media/02 - Drishyam 2 - Title Track.3e39f810915854205344.mp3",
+    "static/media/03 - Sahi Galat.mp3": "/React-Ipod/static/media/03 - Sahi Galat.563bc69be1ee6548d192.mp3",
+    "static/media/home_bg.jpg": "/React-Ipod/static/media/home_bg.17fb98325a6ec7f6b0c4.jpg",
+    "static/media/song2.jpg": "/React-Ipod/static/media/song2.770ff291637b07a9590d.jpg",
+    "static/media/song1.jpg": "/React-Ipod/static/media/song1.0cf3ecbef02bdcbc2af3.jpg",
+    "static/media/song3.jpg": "/React-Ipod/static/media/song3.f220e4c79d643f77d1f0.jpg",
+    "static/media/games_bg.avif": "/React-Ipod/static/media/games_bg.33093fef4379004cfd3e.avif",
+    "static/media/songsScreen_bg.avif": "/React-Ipod/static/media/songsScreen_bg.c584c0f388d15e271495.avif",
+    "static/media/coverflow_bg.avif": "/React-Ipod/static/media/coverflow_bg.a4b212893a25b54e7ce6.avif",
+    "static/media/settings_bg.avif": "/React-Ipod/static/media/settings_bg.89225511f8884ea813e1.avif",
+    "index.html": "/React-Ipod/index.html",
+    "main.7cb3669d.css.map": "/React-Ipod/static/css/main.7cb3669d.css.map",
+    "main.0c4bcd37.js.map": "/React-Ipod/static/js/main.0c4bcd37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cb3669d.css",
+    "static/js/main.0c4bcd37.js"
+  ]
+}
