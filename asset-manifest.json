@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Ipod/static/css/main.7cb3669d.css",
-    "main.js": "/React-Ipod/static/js/main.0c4bcd37.js",
+    "main.css": "/React-Ipod/static/css/main.bf7071ee.css",
+    "main.js": "/React-Ipod/static/js/main.62ebe493.js",
     "static/media/01 - Saath Hum Rahein.mp3": "/React-Ipod/static/media/01 - Saath Hum Rahein.ec50fcb1e8630309ab47.mp3",
     "static/media/02 - Drishyam 2 - Title Track.mp3": "/React-Ipod/static/media/02 - Drishyam 2 - Title Track.3e39f810915854205344.mp3",
     "static/media/03 - Sahi Galat.mp3": "/React-Ipod/static/media/03 - Sahi Galat.563bc69be1ee6548d192.mp3",
@@ -14,11 +14,11 @@
     "static/media/coverflow_bg.avif": "/React-Ipod/static/media/coverflow_bg.a4b212893a25b54e7ce6.avif",
     "static/media/settings_bg.avif": "/React-Ipod/static/media/settings_bg.89225511f8884ea813e1.avif",
     "index.html": "/React-Ipod/index.html",
-    "main.7cb3669d.css.map": "/React-Ipod/static/css/main.7cb3669d.css.map",
-    "main.0c4bcd37.js.map": "/React-Ipod/static/js/main.0c4bcd37.js.map"
+    "main.bf7071ee.css.map": "/React-Ipod/static/css/main.bf7071ee.css.map",
+    "main.62ebe493.js.map": "/React-Ipod/static/js/main.62ebe493.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cb3669d.css",
-    "static/js/main.0c4bcd37.js"
+    "static/css/main.bf7071ee.css",
+    "static/js/main.62ebe493.js"
   ]
 }
